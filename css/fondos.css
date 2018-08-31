@@ -1,0 +1,39 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+div{
+	height: 120px;
+	width: 120px;
+	margin-left: 50px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #3DFF21;
+	border: 5px dotted #3020FF;
+}
+body{
+	background-image: url('../img/ac.jpeg');
+	/*background-repeat: no-repeat;*/
+}
+.caja11{
+	background-image: url('../img/back_mantel.jpeg');
+}
+.caja12{
+	background-image: url('../img/back_mantel.jpeg');
+	background-clip: content-box;
+}
+.caja13{
+	background-image: url('../img/back_mantel.jpeg');
+	background-size: 100% 100%;
+}
+.caja14{
+	background-image: url('../img/back_mantel.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-origin: content-box;
+}

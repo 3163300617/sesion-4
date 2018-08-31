@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.sinBox, .conBox{
+	width:200px; 
+	height:200px;
+	margin: 10px;
+}
+.sinBox{
+	background-color: green;
+	
+}
+.conBox{
+	background-color: red;
+	padding: 20px;
+	border: 15px solid orange;
+	box-sizing: border-box;
+}
